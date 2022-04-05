@@ -2,11 +2,11 @@
 /* IMPORT */
 
 import crypto from 'node:crypto';
-import type {WebCrypto} from './types';
+import type {Crypto} from './types';
 
 /* MAIN */
 
-const WebCrypto = crypto.webcrypto as unknown as WebCrypto; //TSC
+const WebCrypto = crypto.webcrypto as unknown as Crypto; //TSC
 
 /* EXPORT */
 

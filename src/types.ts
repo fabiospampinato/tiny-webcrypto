@@ -183,7 +183,7 @@ interface SubtleCrypto {
 
 /* MAIN */
 
-interface WebCrypto {
+interface Crypto {
   readonly subtle: SubtleCrypto;
   getRandomValues<T extends ArrayBufferView | null>(array: T): T;
   randomUUID(): string;
@@ -191,4 +191,4 @@ interface WebCrypto {
 
 /* EXPORT */
 
-export type {WebCrypto};
+export type {Crypto};

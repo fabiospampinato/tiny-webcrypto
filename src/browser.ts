@@ -1,11 +1,11 @@
 
 /* IMPORT */
 
-import type {WebCrypto} from './types';
+import type {Crypto} from './types';
 
 /* MAIN */
 
-const WebCrypto: WebCrypto = crypto;
+const WebCrypto: Crypto = crypto;
 
 /* EXPORT */
 
