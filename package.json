@@ -2,7 +2,7 @@
   "name": "tiny-webcrypto",
   "repository": "github:fabiospampinato/tiny-webcrypto",
   "description": "A tiny isomorphic WebCrypto object, it just gives you the native one the current platform provides.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/node.js",
   "types": "./dist/node.d.ts",
