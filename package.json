@@ -15,6 +15,8 @@
     "compile": "tsex compile",
     "compile:watch": "tsex compile --watch",
     "prepublishOnly": "npm run clean && npm run compile"
+    "test": "tsex test",
+    "test:watch": "tsex test --watch",
   },
   "keywords": [
     "isomoprhic",
@@ -26,5 +28,6 @@
     "@types/node": "^17.0.23",
     "tsex": "^1.0.4",
     "typescript": "^4.6.3"
+    "fava": "^0.1.1",
   }
 }
