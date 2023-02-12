@@ -1,5 +1,5 @@
 
-// The following as been basically copy/pasted from lib.dom.d.ts
+// The following has been basically copy/pasted from lib.dom.d.ts
 
 /* HELPERS */
 
