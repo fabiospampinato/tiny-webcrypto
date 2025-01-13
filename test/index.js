@@ -13,6 +13,7 @@ describe ( 'WebCrypto', it => {
     const uuid = WebCrypto.randomUUID ();
 
     t.true ( typeof uuid === 'string' );
+    t.true ( uuid.length === 36 );
 
   });
 
